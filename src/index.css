@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.container {
+  @apply max-w-[1300px] mx-auto;
+}
+
+nav li a.active {
+  @apply underline bg-gray-200;
+}
