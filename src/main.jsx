@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import MainLayout from "./Layouts/MainLayout.jsx";
 import PageError from "./Pages/Error/PageError/PageError.jsx";
 import Home from "./Pages/Home/Home.jsx";
+import Works from "./Components/Works/Works.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         index: true,
         Component: Home,
+      },
+      {
+        path: "/works",
+        Component: Works,
       },
     ],
   },

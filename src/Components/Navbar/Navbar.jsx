@@ -18,7 +18,7 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/programs" className="hover:text-red-600 transition">
+        <NavLink to="/works" className="hover:text-red-600 transition">
           আমাদের কার্যক্রম
         </NavLink>
       </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div className="">
       {/* Top Bar */}
-      <div className="bg-[#2c3e50]  text-white text-sm">
+      <div className="bg-[#2c3e50]  text-white text-sm hidden">
         <div className="flex justify-between items-center px-4 py-2 container">
           <div className="flex flex-wrap items-center gap-2">
             <span>📍 মোড্ডা, ময়ূরা, নাঙ্গকোট, কুমিল্লা</span>

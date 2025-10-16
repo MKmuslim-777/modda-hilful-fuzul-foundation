@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../assets/heroImg.avif";
+import bannerImg from "../../assets/banner.png";
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
 
       {/* Text Content */}
       <div className="relative text-center text-white z-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-3 drop-shadow-lg">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-3 drop-shadow-lg md:mx-0 mx-2.5">
           মোড্ডা <span className="text-red-400">হিলফুল ফুজুল</span> ফাউন্ডেশন
         </h1>
         <p className="text-lg md:text-xl opacity-90 mt-8">
