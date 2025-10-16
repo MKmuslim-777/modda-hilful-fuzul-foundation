@@ -41,10 +41,10 @@ const Navbar = () => {
             <span>📞 +৮৮০ ০১৮৮৮ ৮৮৮৮৮৮</span>
           </div>
           <div className="flex gap-3">
-            <button className="bg-red-600 hover:bg-red-700 text-white px-3 py-1 rounded hidden md:block">
+            <button className="bg-red-600 hover:bg-red-700 text-white px-3 py-1 rounded ">
               দান করুন
             </button>
-            <button className="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded">
+            <button className="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded hidden md:block">
               আমার একাউন্ট
             </button>
           </div>
