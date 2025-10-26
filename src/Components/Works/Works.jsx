@@ -6,7 +6,7 @@ const Works = () => {
   const { work } = useWork();
   //   console.log(work);
 
-  const workLimit = work.slice(0, 3);
+  const workLimit = work.slice(0, 4);
   return (
     <div className=" container">
       <div>

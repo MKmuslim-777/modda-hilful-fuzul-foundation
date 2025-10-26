@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap");
+
 @import "tailwindcss";
 @plugin "daisyui";
 
+* {
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
 .container {
-  @apply max-w-[1300px] mx-auto;
+  @apply md:w-11\12 mx-auto;
 }
 
 nav li a.active {
