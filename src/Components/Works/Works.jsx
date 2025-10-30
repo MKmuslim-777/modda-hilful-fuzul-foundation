@@ -8,7 +8,7 @@ const Works = () => {
 
   const workLimit = work.slice(0, 4);
   return (
-    <div className=" container">
+    <div className=" container mx-auto">
       <div>
         <h1 className="text-3xl md:text-5xl font-bold text-center my-20">
           আমাদের কার্যক্রম

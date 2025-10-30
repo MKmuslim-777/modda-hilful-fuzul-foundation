@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className="">
       {/* Top Bar */}
       <div className="bg-[#2c3e50]  text-white text-sm hidden">
-        <div className="flex justify-between items-center px-4 py-2 container">
+        <div className="flex justify-between items-center px-4 py-2 mx-auto container">
           <div className="flex flex-wrap items-center gap-2">
             <span>📍 মোড্ডা, ময়ূরা, নাঙ্গকোট, কুমিল্লা</span>
             <span>📞 +৮৮০ ০১৮৮৮ ৮৮৮৮৮৮</span>
@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="w-full bg-base-100 shadow-sm ">
-        <div className="navbar container">
+        <div className="navbar container mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -89,7 +89,7 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">{links}</ul>
           </div>
           <div className="navbar-end">
-            <a className="btn">Login</a>
+            <Link to={"/auth/register"} className="btn">সদস্য নিবন্ধন</Link>
           </div>
         </div>
       </div>
