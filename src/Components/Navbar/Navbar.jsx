@@ -83,13 +83,17 @@ const Navbar = () => {
               </ul>
             </div>
             {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
-            <img src={logo} className="btn btn-ghost text-xl" alt="" />
+            <Link to={"/"}>
+              <img src={logo} className="btn btn-ghost text-xl" alt="" />
+            </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{links}</ul>
           </div>
           <div className="navbar-end">
-            <Link to={"/auth/register"} className="btn">সদস্য নিবন্ধন</Link>
+            <Link to={"/auth/register"} className="btn">
+              সদস্য নিবন্ধন
+            </Link>
           </div>
         </div>
       </div>
